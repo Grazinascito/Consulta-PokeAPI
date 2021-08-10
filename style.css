@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #186cac;
+}
+
+.logo img{
+   width: 500px;
+   height: 200px;
+   margin-bottom: 70px;
+}
+
+form{
+    text-align: center;
+    
+    margin-top: -50px;
+}
+
+form div{
+    margin: 0 auto;
+}
+
+.buscaPoke{
+    display: flex;
+    flex-direction: column;
+}
+
+.buscaPoke input {
+    width: 220px;
+    margin: 0 auto;
+    outline: none;
+    padding: 6px;
+    border-radius: 4px;
+    border: gray;
+}
+
+.buscaPoke label{
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.dadosDoPoke{
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+   
+}
+
+.dadosDoPoke div {
+    
+    background-color: #ffffffd0;
+    width: 220px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: rgb(19, 28, 37) 0px 20px 30px -10px;
+  
+}
+
+.dadosDoPoke p {
+    margin: 15px 0;
+}
+
+.imgPoke{
+    width: 150px;
+    
+    border-radius: 4px;
+}
+
+.habilidadePoke, .nomePoke{
+    background-color: blue;
+    padding: 6px;
+    border-radius: 4px;
+    
+}
